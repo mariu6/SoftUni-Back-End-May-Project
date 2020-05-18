@@ -1,0 +1,24 @@
+{
+  "name": "express-project",
+  "version": "1.0.0",
+  "description": "Express project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariu6/SoftUni-Back-End-May-Project.git"
+  },
+  "author": "Mariusz Ilijew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariu6/SoftUni-Back-End-May-Project/issues"
+  },
+  "homepage": "https://github.com/mariu6/SoftUni-Back-End-May-Project#readme",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
+
+
