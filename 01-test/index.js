@@ -2,7 +2,7 @@
 
 // http.createServer((req, res) => {
 //   res.write('Hi!');
-//   res.end();
+//   res.end();            // важно е да се сложи, за да приключи респонса.
 // }).listen(1337);
 
 // console.log('Node.js server running on port 1337');
