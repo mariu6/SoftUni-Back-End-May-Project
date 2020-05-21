@@ -17,15 +17,12 @@ const port = 1337;
 http.createServer((req, res) => {
   let path = url.parse(req['url']).pathname;
   if (path === '/') {
-    // TODO: Send 'Welcome to home page!'
     res.write('Welcome to home page!');
     res.end();
   } else if (path === '/login') {
-    // TODO: Send 'Welcome to home page!'
     res.write('Welcome to login page!');
     res.end();
   } else {
-    // TODO: Send 'Welcome to home page!'
     res.write('Error page 404!');
     res.end();
   }
