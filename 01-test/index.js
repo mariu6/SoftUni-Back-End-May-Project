@@ -24,6 +24,10 @@ http.createServer((req, res) => {
     // TODO: Send 'Welcome to home page!'
     res.write('Welcome to login page!');
     res.end();
+  } else if (path === '/logout') {
+    // TODO: Send 'Welcome to home page!'
+    res.write('Logout successfully!');
+    res.end();
   } else {
     // TODO: Send 'Welcome to home page!'
     res.write('Error page 404!');
